@@ -1,0 +1,8 @@
+<launch>
+  <rosparam file="$(find server_node)/cfg.yaml"/>
+  
+  <node pkg="ui_node" name="SSsUI" type="ui"/>
+  <node pkg="server_node" name="SSsSN" type="server" output="screen"/>
+  
+ 
+</launch>

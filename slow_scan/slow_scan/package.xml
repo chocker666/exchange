@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>slow_scan</name>
+  <version>0.0.1</version>
+  <description>The slow_scan package for LIDAR and motor</description>
+  
+  <maintainer email="logank@todo.todo">logank</maintainer>
+
+  <license>TODO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rmds</exec_depend>
+  <exec_depend>server_node</exec_depend>
+  <exec_depend>ui_node</exec_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+</package>
